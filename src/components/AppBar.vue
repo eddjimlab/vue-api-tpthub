@@ -1,8 +1,8 @@
 <template>
   <v-app-bar app color="primary" dark>
-    <v-toolbar-title>App Name</v-toolbar-title>
+    <v-toolbar-title>{{ $t("navBar.appName") }}</v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-btn class="mr-4" to="/" text>Note List</v-btn>
+    <v-btn class="mr-4" to="/" text>{{ $t("navBar.noteList") }}</v-btn>
     <LocalSwitcher />
   </v-app-bar>
 </template>
