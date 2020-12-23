@@ -14,7 +14,7 @@ export default class NotesModule extends VuexModule {
   @Action
   async fetchNotes(): Promise<void> {
     const url =
-      "https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=10";
+      "https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=100";
     const response = await axios(url);
     const notes = await response.data;
     this.context.commit("setNotes", notes as Notes[]);

@@ -132,7 +132,7 @@ const notesModule = getModule(NotesModule);
 
 @Component
 export default class extends Vue {
-  private selected: Array<string> = ["type", "createdAt", "detail"];
+  private selected: Array<string> = ["type", "text", "createdAt", "detail"];
   private dialog = false;
 
   get getNotes(): Notes[] {
