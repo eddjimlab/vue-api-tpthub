@@ -1,0 +1,27 @@
+{
+  "navBar": {
+    "appName": "Application Name",
+    "noteList": "Note List"
+  },
+  "noteList": {
+    "dataList": "Data List",
+    "columnSelect": "Column Select",
+    "columnSelectPlease": "Please Select Columns"
+  },
+  "detailList": {
+    "dataDetail": "Data Detail"
+  },
+  "columnHeaders": {
+    "textStart": "Cat Facts",
+    "type": "Type",
+    "deleted": "Deleted",
+    "_id": "_id",
+    "source": "Source",
+    "user": "User",
+    "text": "Text",
+    "createdAt": "CreatedAt",
+    "updatedAt": "UpdatedAt",
+    "used": "Used",
+    "detail": "Detail"
+  }
+}

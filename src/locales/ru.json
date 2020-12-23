@@ -1,0 +1,27 @@
+{
+  "navBar": {
+    "appName": "Имя приложения",
+    "noteList": "Список заметок"
+  },
+  "noteList": {
+    "dataList": "Список заметок",
+    "columnSelect": "Выбрать колонки",
+    "columnSelectPlease": "Пожалуйста выберите колонки"
+  },
+  "detailList": {
+    "dataDetail": "Данные подробно"
+  },
+  "columnHeaders": {
+    "textStart": "Факты",
+    "type": "Типы",
+    "deleted": "Удалено",
+    "_id": "ай ди",
+    "source": "Источник",
+    "user": "Пользователь",
+    "text": "Текст",
+    "createdAt": "Создано",
+    "updatedAt": "Изменено",
+    "used": "Использовано",
+    "detail": "Подробно"
+  }
+}
