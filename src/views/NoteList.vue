@@ -127,7 +127,7 @@
 import { getModule } from "vuex-module-decorators";
 import NotesModule from "@/store/NotesModule";
 import { Component, Vue } from "vue-property-decorator";
-import { Notes } from "@/models/Interfaces.ts";
+import { Notes, Headers } from "@/models/Interfaces";
 const notesModule = getModule(NotesModule);
 
 @Component
@@ -138,7 +138,7 @@ export default class extends Vue {
   get getNotes(): Notes[] {
     return notesModule.getNotes;
   }
-  get headersLocalize(): Array<object> {
+  get headersLocalize(): Headers[] {
     const headers = [
       { text: this.$t("columnHeaders.type"), value: "type" },
       { text: this.$t("columnHeaders.deleted"), value: "deleted" },
