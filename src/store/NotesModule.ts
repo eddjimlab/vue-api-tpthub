@@ -1,5 +1,5 @@
 import { VuexModule, Module, Mutation, Action } from "vuex-module-decorators";
-import axios from "axios";
+import axios, {AxiosResponse} from 'axios'
 import { Notes } from "@/models/Interfaces";
 import store from "@/store/index";
 
@@ -15,7 +15,7 @@ export default class NotesModule extends VuexModule {
   async fetchNotes(): Promise<void> {
     const url =
       "https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=100";
-    const response = await axios(url);
+    const response: AxiosResponse = await axios(url);
     const notes = await response.data;
     this.context.commit("setNotes", notes as Notes[]);
   }
