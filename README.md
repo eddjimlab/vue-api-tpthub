@@ -1,4 +1,5 @@
 # vue-api-tpthub
+https://eddjimlab.github.io/vue-api-tpthub/
 
 ## Project setup
 ```
